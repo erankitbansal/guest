@@ -1,0 +1,152 @@
+understanding towards programming
+
+computer/mobile required
+
+learning mindset-->problem-->(idea-->algorithm/pseudocode-->flowchart
+--->programming language--->translator-->m/c executable program-->output
+
+program-->systematic set of instructions written in coded form to perform a particular task.
+
+high level src program-->compiler-->low level obj program-->assembler
+system programs
+
+IDE
+editor-->debugger-->compiler-->macroprocessor-->assembler-->linker-->loader
+
+languages
+M-->A-->B-->C-->C++-->java/VB-->.net-->python
+M-->machine language
+lOW LEVEl
+A-->Assembly language
+B-->Basic Conceptual programming language
+HIGH LEVEL
+C-->Compiler based languages
+C++
+
+COMPILER/INTERPRETER
+
+C++  is an object oriented language
+A,B and C were procedural oriented languages
+
+
+procedure
+
+
+Main Program-->subprograms (Top down approach)
+
+Class(data & code together)-->using objects
+
+class1-->obj1
+class2-->obj2
+class3-->obj3
+
+main()
+{
+obj1
+obj2
+obj3
+}
+
+
+
+
+idea(raw thing)
+algorithm-->systematic set of instructions written in any language
+pseudocode-->standard way of writing an algorithm
+flowchart-->pictorial view of an algorithm
+programming language-->grammar-->syntax
+
+language
+concepts
+syntax
+ide
+sementics/logic
+understanding
+problem solving
+practice/continuity
+creativity
+algorithms
+
+
+steps to develop a procedure/structure of a procedure
+
+1. Documentation section-optional
+2. Link Section-mandatory
+3. Namespace initialisation- mandatory for visual compilers
+4. Global definition/Macro definition-optional
+5. Global declaration-optional
+6. Main Program section-mandatory
+		{
+			1. Local declaration and definition-optional
+			2. Execution section-mandatory
+		}
+7. Subprogram section-optional
+
+
+
+
+//program for finding factorial	/*documentation section*/
+#include<iostream>					//link section # is called preprocessor directive
+using namespace std;				//namespace initialisation
+#define c "chitkara university"  //macro definition
+#define pi 3.14
+void welcome();						//function prototype
+int f=1;								//global declaration and definition
+int main()							//main program section
+{
+	int n;								//local declaration
+	cout<<"enter the value of n";
+	cin>>n;
+	for(int i=n;i>0;i--)
+	{
+		f=f*i;
+	}
+	cout<<" the factorial is"<<f;
+	cout<<c;
+	welcome();				//function call
+	return 0;
+}
+void welcome()				//subprogram function definition
+{
+	cout<<"hello world";
+}
+
+
+//  or /*.....*/       comments
+#   pre processor directive
+include/main/int/void/for/return/define/cout/cin/using/namespace/std      keyword-reserved words of any language
+int f=1;  
+int is a keyword/datatype, 
+f is an identifier, 
+1 is constant, 
+= and ; are the operators
+
+
+keywords-identifiers/variables-constants
+operators-symbols used for operands
+
+< > or " "  help to include library files
+
+;			terminal symbol (every statement should ends with a semicolon)
+,           comma
+=			assignment operators	
+<<			insertion operator	used with cout
+>>			extraction operator used with cin
+
+
+cin>>n;
+
+cout<<c;
+
+
+
+              extract-->
+user(data)--->system-->user(info)
+				insert-->
+
+#include<iostream>
+
+{}  local block
+
+
+
