@@ -1,0 +1,129 @@
+program/software
+
+idea-->algorithm/pseudocode-->flowchart-->h/w+os+simulator(pl)
+
+
+algorithm-->systematic set of instructions in our language
+flowchart-->pictorial view of algorithm
+pseudocode-->standard way of writing an algorithm
+
+
+Language-->grammar(syntax and sementics)
+
+programming behind the programming
+
+compilation
+
+
+system programs-->helps us to make a software
+(Editor+debugger+compiler+assembler+macroprocessor+linker+loader)
+
+
+
+high level source code-->compiler-->lowlevl obj code
+--->assembler--->m/c level object code--->macroprocessor--->
+expand the macros--->linker-->lin k libraries with the program
+--->loader-->(places the instructions from queue to main  memory
+and execute them)
+
+
+.cpp, .exe, .bak, .obj
+
+least size-->.bak
+max size-->.exe
+
+
+macros--->subroutines in assembly language programming
+
+
+LOAD A
+LOAD B
+ADD A B
+STORE C
+PRN C
+
+
+LANGUAGES
+
+C,CPP, JAVA, PYTHON,RUBY,JAVASCRIPT, .NET, SWIFT
+FLIUTTER, SQL, KOTLIN, HTML, JS
+
+LANGUAGES
+
+M-machine(binary)
+A- Assembly (mnemonical)
+B-bcpl(basic conceptual programming language)-pascal, cobol, fortran
+C- compiler
+C++, vb, .net,java, python
+dos-->unix-->windows-->linux-->android/ios
+
+fast, interactive, secure
+
+binary-->low level-->high level
+
+
+
+
+
+
+
+
+
+
+
+
+
+Waterfall Model
+
+	1. Feasibility Study & Requirement Analysis---->SRS document
+
+manpower 	yes/no
+hardware 	yes/no
+software 	yes/no
+time 		yes/no
+expenses 	yes/no
+profit 		yes/no
+priority		yes/no
+						banking knowledge
+						functionality
+						end users requirement
+						prototype knowledge
+						API integration
+
+
+
+	2. Design
+				flow of software
+								Algorithm
+								flowcharts--->DFD
+								er diagram
+								use case diagrams
+								class diagram
+								state diagrams
+								interaction diagrams		
+	3. coding
+	4. testing
+	5. implementation
+	6. mainatainance
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
